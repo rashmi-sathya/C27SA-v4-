@@ -9,11 +9,6 @@ let world;
 var tower;
 
 
-function preload() {
-  backgroundImg = loadImage("./assets/background.gif");
-  towerImage = loadImage("./assets/tower.png");
-
-}
 function setup() {
   createCanvas(400,400);
 
