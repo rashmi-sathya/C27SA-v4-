@@ -6,7 +6,7 @@ const Body = Matter.Body;
 let engine;
 let world;
 
-var cannon;
+var tower;
 
 
 function preload() {
