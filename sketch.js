@@ -4,7 +4,7 @@ const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 
 let engine;
-let world,angle;
+let world;
 
 var cannon;
 
@@ -13,9 +13,8 @@ function setup() {
 
   engine = Engine.create();
   world = engine.world;
-  angle = -PI / 4;
 
-    cannon = new Cannon(180, 110, 110, 50, angle);
+  tower = new Tower(150, 350, 160, 310);
 
 
   rectMode(CENTER);
@@ -26,7 +25,7 @@ function draw()
 {
   background(51);
   Engine.update(engine);
-    cannon.display();
+    tower.display();
 
  
 }
