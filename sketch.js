@@ -15,7 +15,6 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
 
-  tower = new Tower(150, 350, 160, 310);
 
 
   rectMode(CENTER);
@@ -26,7 +25,6 @@ function draw()
 {
   background(51);
   Engine.update(engine);
-    tower.display();
 
  
 }
