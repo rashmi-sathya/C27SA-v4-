@@ -24,6 +24,7 @@ function setup() {
 
   rectMode(CENTER);
   ellipseMode(RADIUS);
+  //Use a new keyword to create a tower object.(challenge 4)
 }
 
 function draw() 
@@ -32,7 +33,7 @@ function draw()
   image(backgroundImg, 0, 0, width, height);
 
   Engine.update(engine);
-
+//display tower(challenge 4)
  
 }
 
