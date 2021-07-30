@@ -8,6 +8,11 @@ let world;
 
 var tower;
 
+function preload() {
+  backgroundImg = loadImage("./assets/background.gif");
+
+}
+
 
 function setup() {
   createCanvas(400,400);
@@ -23,7 +28,9 @@ function setup() {
 
 function draw() 
 {
-  background(51);
+  background(189);
+  image(backgroundImg, 0, 0, width, height);
+
   Engine.update(engine);
 
  
