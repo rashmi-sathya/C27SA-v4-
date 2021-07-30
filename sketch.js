@@ -10,6 +10,7 @@ var tower;
 
 function preload() {
   backgroundImg = loadImage("./assets/background.gif");
+  towerImage = loadImage("./assets/tower.png");
 
 }
 
