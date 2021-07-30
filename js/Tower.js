@@ -5,6 +5,7 @@ class Tower {
 //set the static body(challenge 2)
       
       };
+        //Load the image of the tower(challenge 5)
 this.width = width;
     this.height = height;
       //write the instruction to create a rectangular tower body(challenge1)
@@ -18,6 +19,8 @@ display() {
     translate(pos.x, pos.y);
     rotate(angle);
     imageMode(CENTER);
+            //change the rect as image(challenge 5)
+
 //display the rect function (challenge 3)
   pop();
   }
